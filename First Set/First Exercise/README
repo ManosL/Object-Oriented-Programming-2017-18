@@ -1,0 +1,18 @@
+Object-Oriented Programming
+1st Set-First Exercise
+
+Manual:
+	To compile this program write to terminal
+the command "make". To delete the executable and
+the object files write the command "make clean".
+
+To execute the program the command line must have the
+following form:
+
+./Train_Simulator <number of stations> <number of waggons>
+
+where these two parameters are integers. Moreover, the 
+program prints the money that the train collected from
+fines and from legal passengers. And prints for each
+waggon how many passengers have escaped checking and how
+many illegal passengers were caught.

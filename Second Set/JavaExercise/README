@@ -1,0 +1,23 @@
+Object-Oriented Programming
+
+Second Set-Java Exercise
+
+Manual:
+	
+	To compile the program 
+write to the terminal the command
+javac *.java
+
+	To run the program write 
+to the terminal the command
+
+java MainClass <Number of Artifacts> <Masterpiece Movement> <Masterpiece Condition>
+
+<Number of artifacts> should a number greater than zero
+
+<Masterpiece Movement> should be impressionism, expressionism or naturalism with all
+the letters downcase because my program checks the arguments case sensitively
+
+<Masterpiece Condition> should be bad, good or excellent with all the letters downcase 
+because my program checks the arguments case sensitively
+

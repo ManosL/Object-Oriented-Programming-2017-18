@@ -1,0 +1,42 @@
+Object-Oriented Programming
+1st Set-Second Exercise
+
+
+Manual:
+
+	To compile this program write to the
+terminal the command "make". To delete the 
+executable and the object files write the
+command "make clean"
+
+To execute the program the command line must
+have the following form:
+
+./Airport_Simulator <duration of flow time>
+
+where this parameter is an integer.
+
+Notes:
+
+	My program runs until it doesn't have
+a flight and an application to read. And does
+the following loop:
+
+->Calls show_timetable()
+->Calls flow_time()
+->Cancells a random flight
+->Fills the empty terminals
+->Moves the applications which found a matching
+flight from waiting list to the matching flight.
+
+Moreover, the applications on the file have the 
+following input format:
+
+<ID> <First Name> <Last Name> <Destination>
+<Time to airport> <Desirable time to destination>
+<Seat type>
+
+The flights on the file have following input format:
+
+<Destination> <Depart time> <Flight duration>
+<Max seats at economy class> <Max seats at luxury class>
